@@ -10,9 +10,9 @@ type Props = {
 export default function Layout( { children } : Props) {
     return (
         <>
-            <header className="shadow-md p-4">
+            <header className="shadow-md p-4 bg-nav-bg text-white">
                 <nav className="flex justify-between flex-col lg:flex-row">
-                    <Link to={"/"} className="mb-2 lg:mb-0 py-2 px-4 mx-2">
+                    <Link to={"/"} className="mb-2 lg:mb-0 p-2 mx-2">
                         <p>
                             Anderson Lai IPP
                         </p>
@@ -21,9 +21,9 @@ export default function Layout( { children } : Props) {
                         {
                             links.map((value, index) => {
                                 return (
-                                <li key={index} className="inline-block mx-2 px-4 py-2
-                                hover:bg-hover hover:text-white duration-150
-                                hover:-translate-y-2 delay-75 rounded-lg">
+                                <li key={index} className="inline-block mx-2 p-2
+                                hover:bg-hover duration-150
+                                hover:-translate-y-2 delay-100 rounded-lg">
                                     <Link to={`/${value}`}>{tabs[index]}</Link>
                                 </li>
                                 );
