@@ -21,10 +21,11 @@ export default function Layout( { children } : Props) {
                         {
                             links.map((value, index) => {
                                 return (
-                                <li key={index} className="inline-block mx-2 p-2
+                                <li key={index} className="inline-block">
+                                    <Link to={`/${value}`}
+                                     className="inline-block mx-2 p-2
                                 hover:bg-hover duration-150
-                                hover:-translate-y-2 delay-100 rounded-lg">
-                                    <Link to={`/${value}`}>{tabs[index]}</Link>
+                                hover:-translate-y-2 delay-100 rounded-lg">{tabs[index]}</Link>
                                 </li>
                                 );
                             })
