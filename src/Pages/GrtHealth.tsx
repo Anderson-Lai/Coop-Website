@@ -1,16 +1,14 @@
-import TypewriterEffect from '../Components/TypewriterEffect';
 import Card from '../Components/Card';
 import { role, description, creation } from '../Data/GrtHealth';
 import Image from '../Components/Image';
-import dashboard from '../Images/dashboard.png';
-import lobby from '../Images/lobby_2.png';
+import dashboard from '../Images/GrtHealth/dashboard.png';
+import lobby from '../Images/GrtHealth/lobby_2.png';
+import SubNavbar from '../Components/SubNavbar';
 
 export default function GrtHealth() {
     return (
         <>
-            <div className='text-center text-4xl text-white bg-slate-500 py-5'>
-                <TypewriterEffect message="What did I do at GrtHealth?" />
-            </div>
+            <SubNavbar text='What did I do at GrtHealth?' />
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-x-3 p-4'>
                 <div className='flex flex-col justify-end'>
 

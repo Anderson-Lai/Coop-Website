@@ -2,7 +2,7 @@
 
 type Props = {
     message: string,
-    additionalStyles: string
+    additionalStyles?: string
 }
 
 export default function Box( { message, additionalStyles } : Props ) {

@@ -6,9 +6,8 @@ import { Link } from "react-router-dom";
 export default function Home() {
     return (
         <>
-            <div className="flex flex-col items-center text-white bg-slate-500 py-5">
+            <div className="flex flex-col items-center text-white bg-sub-nav-bg py-5">
                 <div className='text-center text-4xl'>
-                    {/* <TypewriterEffect message="Welcome to Anderson Lai's IPP" /> */}
                     <p>Welcome to Anderson Lai's IPP</p>
                 </div>
             </div>
@@ -22,7 +21,8 @@ export default function Home() {
                         return (
                             <>
                                 <Link to={`/${value}`} key={index} className="bg-indigo-300 rounded-lg
-                                    text-center p-4 duration-150 hover:-translate-y-2 hover:scale-105 animate-move-down mx-10 my-9">
+                                    text-center p-4 duration-150 hover:-translate-y-2 hover:scale-105 animate-move-down mx-10 my-9
+                                    py-6">
                                     {tabs[index]}
                                 </Link>
                             </>
