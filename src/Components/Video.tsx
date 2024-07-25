@@ -1,12 +1,12 @@
 
 
 type Props = {
-    image: string,
+    video: string,
     width?: number,
     height?: number,
 }
 
-export default function Image( { image, width, height} : Props ) {
+export default function Video( { video, width, height} : Props ) {
     if (width == null) {
         width = 350;
     }
@@ -24,8 +24,10 @@ export default function Image( { image, width, height} : Props ) {
 
     return (
         <div className='flex justify-center'>
-            <a href={image} download={image}>
-                <img src={image} alt='image' style={{maxWidth: width, maxHeight: classHeight}}/>
+            <a href={video} download={video}>
+                <video controls muted autoPlay style={{maxWidth: width, maxHeight: classHeight}}>
+                    <source src={video} height={height} width={width} />
+                </video>
             </a>
         </div>
     );
