@@ -29,7 +29,7 @@ export default function GrtHealth() {
 
                 </div>
                 <div className='flex flex-col justify-end'>
-                    <Image image={dashboard} width={650} />
+                    <Image image={dashboard} width={550} />
 
                     <Card title='What did I create?'
                     text={creation} additionalStyles='animate-move-down'
