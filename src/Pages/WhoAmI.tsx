@@ -36,7 +36,7 @@ export default function WhoAmI() {
                 <div className="flex items-center flex-col lg:flex-row">
                     <div className="animate-move-down-2">
                        {/* <Video video={artifacts[2]} width={150} /> */}
-                       <a href="https://youtu.be/UweWKMyssLY" target="_blank" rel="noreferrer"
+                       <a href="https://www.youtube.com/watch?v=SkPBK0UILxs" target="_blank" rel="noreferrer"
                         className="underline text-sky-300">Day in the life</a>
                     </div>
 
@@ -46,7 +46,7 @@ export default function WhoAmI() {
                 </div>
             </div>
 
-            {/* <div className="bg-purple-700 py-6 px-8">
+            <div className="bg-purple-700 py-6 px-8">
                 <div className="flex items-center justify-end flex-col lg:flex-row">
                     <div className="animate-move-right max-w-xl">
                         <Box message={artifactDescriptions[3]} additionalStyles="text-white mx-7 border-slate-950" />
@@ -56,7 +56,7 @@ export default function WhoAmI() {
                        <Image image={artifacts[3]} width={250} />
                     </div>
                 </div>
-            </div> */}
+            </div>
         </>
     );
 }
