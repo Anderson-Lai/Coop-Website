@@ -6,7 +6,7 @@ export default function Reflection() {
         <>
             <SubNavbar text="Reflecting on my coop" />
             <div className="flex flex-col items-center justify-center mt-7">
-                <div style={{maxWidth: "65%"}}>
+                <div style={{maxWidth: "65%"}} className="animate-move-down">
                     <Card title="Technical skills I learnt at my coop" additionalStyles=""
                     text="At my coop, I learned many important skills. I learnt how to use Microsoft Azure, a cloud service
                     provider used by many companies to host websites, web apis, and other services. Furthermore, I was able
@@ -15,7 +15,7 @@ export default function Reflection() {
                     and better websites in the future."
                     />
                 </div>
-                <div style={{maxWidth: "65%"}} className="my-4">
+                <div style={{maxWidth: "65%"}} className="my-4 animate-move-down-2">
                     <Card title="Personal skills I learnt at my coop" additionalStyles=""
                     text="At my coop, the main skill I learnt was being able to take in feedback and criticism. While showing my 
                     work to my boss, I would have to listen to his feedback on my current progress, such as what needed improving,
