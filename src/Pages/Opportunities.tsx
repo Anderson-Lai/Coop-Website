@@ -18,7 +18,7 @@ export default function Opportunities() {
                         additionalStyles="animate-move-down-2" />
                 </div>
             </div>
-            <div className="mt-3 flex justify-center items-center">
+            <div className="mt-3 mb-5 flex justify-center items-center">
                 <Image image={softdev} width={500} />
             </div>
         </>
