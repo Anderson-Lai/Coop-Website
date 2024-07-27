@@ -9,7 +9,7 @@ export default function Become() {
         <>
             <SubNavbar text="What do I want to become?" />
             <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-5 px-5 py-4 mt-5">
-                <div className="shadow-lg rounded-lg border-2 border-indigo-300 px-5 py-4 animate-move-down flex flex-col justify-end">
+                <div className="shadow-lg rounded-lg border-2 border-indigo-300 px-5 py-4 animate-move-down-2 flex flex-col justify-end">
                     <Image image={embed} width={500} />
                     <Card title="Embedded systems engineer" additionalStyles="my-6"  
                         text="One of the jobs in software engineering I would like to go into is designing embedded systems.
